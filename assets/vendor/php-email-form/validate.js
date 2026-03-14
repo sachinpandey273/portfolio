@@ -109,15 +109,21 @@ jQuery(document).ready(function($) {
       type: "POST",
       url: action,
       data: str,
+      dataType: 'json',
+      accepts: 'application/json',
       success: function(msg) {
-        if (msg == 'OK') {
+        if (msg == 'OK' || msg.success == 'true' || msg.success == true) {
           this_form.find('.loading').slideUp();
           this_form.find('.sent-message').slideDown();
           this_form.find("input:not(input[type=submit]), textarea").val('');
         } else {
           this_form.find('.loading').slideUp();
-          this_form.find('.error-message').slideDown().html(msg);
+          this_form.find('.error-message').slideDown().html(msg.message || msg || 'Error sending message.');
         }
+      },
+      error: function() {
+        this_form.find('.loading').slideUp();
+        this_form.find('.error-message').slideDown().html('Error sending message. Please try again later.');
       }
     });
     return false;
