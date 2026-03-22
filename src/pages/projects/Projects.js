@@ -20,6 +20,7 @@ import ProjectsImg from "./ProjectsImg";
 class Projects extends Component {
   render() {
     const theme = this.props.theme;
+    console.log(ProjectsData);
     return (
       <div className="projects-main">
         <Header theme={theme} />
