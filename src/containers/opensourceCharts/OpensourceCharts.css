@@ -1,0 +1,194 @@
+.os-charts-header {
+  font-size: 40px;
+  line-height: 1.1;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+}
+
+.os-charts-header-div {
+  text-align: center;
+}
+
+.os-charts-subtitle {
+  font-family: "Google Sans Regular";
+  font-size: 18px;
+  text-align: center;
+  margin: 0 20px 10px;
+  line-height: 1.5;
+}
+
+.main-div {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.opensource-projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+.opensource-projects .repo-card-div.horizontal-card {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  cursor: pointer;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 16px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.1);
+}
+
+.opensource-projects .repo-card-div:hover {
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0px 20px 40px -10px rgba(0, 0, 0, 0.15);
+  z-index: 2;
+}
+
+.opensource-projects .project-image-container {
+  flex: 0 0 180px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 0;
+}
+
+.opensource-projects .project-cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.opensource-projects .repo-text-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.opensource-projects .repo-card-div:hover .project-cover-image {
+  transform: scale(1.08);
+}
+
+.opensource-projects .repo-name-div {
+  display: flex;
+  align-items: center;
+}
+
+.opensource-projects .repo-svg {
+  margin-right: 0.5rem;
+  min-width: 16px;
+}
+
+.opensource-projects .repo-name {
+  text-align: left;
+  font-family: "Google Sans Regular";
+  margin-bottom: 0.5rem;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  overflow: hidden;
+  line-height: 1.2;
+  margin: 0px;
+}
+
+.opensource-projects .repo-description {
+  overflow: hidden;
+  text-align: left;
+  display: -webkit-box;
+  font-family: "Google Sans Regular";
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin-top: 0.8rem;
+  line-height: 1.6;
+  font-size: 15px;
+  opacity: 0.85;
+}
+
+.opensource-projects .repo-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 15px;
+}
+
+.opensource-projects .repo-creation-date {
+  margin: 0;
+  font-family: "Google Sans Regular";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.opensource-projects .repo-link {
+  font-family: "Google Sans Regular";
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.opensource-projects .repo-link:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 1024px) {
+  .opensource-projects .project-image-container {
+    flex: 0 0 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .os-charts-header {
+    font-size: 28px;
+  }
+
+  .os-charts-subtitle {
+    font-size: 15px;
+  }
+
+  .opensource-projects {
+    grid-template-columns: 1fr;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 20px;
+  }
+
+  .opensource-projects .repo-card-div.horizontal-card {
+    flex-direction: column !important;
+    text-align: center;
+    gap: 1rem;
+    padding: 1.5rem;
+  }
+
+  .opensource-projects .repo-text-container {
+    text-align: center;
+  }
+
+  .opensource-projects .project-image-container {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 180px;
+    margin: 0 auto;
+  }
+
+  .opensource-projects .repo-details {
+    flex-direction: column;
+    gap: 8px;
+  }
+}

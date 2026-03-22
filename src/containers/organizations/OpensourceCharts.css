@@ -1,0 +1,87 @@
+.main-div {
+  margin-top: 60px;
+}
+
+.os-charts-header-div {
+  text-align: center;
+}
+
+.os-charts-header {
+  font-size: 40px;
+  line-height: 1.1;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.opensource-projects {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+.opensource-card {
+  padding: 30px;
+  border-radius: 16px;
+  width: 350px;
+  background: #f4f4f4;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.opensource-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.opensource-card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #24292e;
+}
+
+.opensource-card p {
+  color: #586069;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.opensource-card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.opensource-card a:hover {
+  color: #0056b3;
+}
+
+@media (max-width: 1380px) {
+  .os-charts-header {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .os-charts-header {
+    font-size: 25px;
+  }
+
+  .opensource-projects {
+    gap: 20px;
+  }
+
+  .opensource-card {
+    width: 100%;
+    max-width: 320px;
+  }
+}
