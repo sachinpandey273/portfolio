@@ -50,7 +50,7 @@ class LogoLoader extends React.Component {
           textAnchor="middle"
           className="premium-text"
         >
-          Shivendra Pratap
+          Sachin Pandey
         </text>
       </svg>
     );

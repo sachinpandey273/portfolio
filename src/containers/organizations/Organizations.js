@@ -25,7 +25,7 @@ class OpensourceCharts extends Component {
               CLI support and customizable styles.
             </p>
             <a
-              href="https://github.com/shivendra911/ASCIIFORGE"
+              href="https://github.com/sachinpandey273/ASCIIFORGE"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -41,7 +41,7 @@ class OpensourceCharts extends Component {
               interaction.
             </p>
             <a
-              href="https://github.com/shivendra911"
+              href="https://github.com/sachinpandey273"
               target="_blank"
               rel="noopener noreferrer"
             >

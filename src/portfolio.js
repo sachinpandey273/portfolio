@@ -7,11 +7,11 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Shivendra's Portfolio",
+  title: "Sachin Pandey's Portfolio",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Shivendra Pratap Portfolio",
+    title: "Sachin Pandey Portfolio",
     type: "website",
     url: "https://portfolio-09-beta.vercel.app/",
   },
@@ -19,45 +19,44 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Shivendra Pratap",
-  logo_name: "ShivendraPratap",
-  nickname: "Shiv",
+  title: "Sachin Pandey",
+  logo_name: "SachinPandey",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1ZFAPv5P_IOnago_rmhpa1WZ5BjZ7EMBU/view?usp=sharing",
-  portfolio_repository: "https://github.com/shivendra911/portfolio-09",
-  githubProfile: "https://github.com/shivendra911",
+    "https://drive.google.com/file/d/1T4pIf_mlJ1JJgrub3YHdOXqSoXTPi4s0/view?usp=drive_link",
+  portfolio_repository: "https://github.com/sachinpandey273/portfolio-09",
+  githubProfile: "https://github.com/sachinpandey273",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/shivendra911",
+    link: "https://github.com/sachinpandey273",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/shivendra--pratap/",
+    link: "https://www.linkedin.com/in/sachinpandey01/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
-    link: "https://www.youtube.com/@directpick7088",
+    link: "https://www.youtube.com/@lpu.shortout",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
-    link: "mailto:shivendrapratapsp3@gmail.com",
+    link: "mailto:pthesachin@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "X-Twitter",
-    link: "https://x.com/Shivendra_91",
+    link: "https://x.com/pthesachin",
     fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
@@ -327,7 +326,7 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/u/shivendrap09/",
+      profileLink: "https://leetcode.com/u/sachinpandey273/",
     },
     {
       siteName: "HackerRank",
@@ -335,7 +334,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/profile/shivendraprata32",
+      profileLink: "https://www.hackerrank.com/profile/pthesachin",
     },
     {
       siteName: "Codechef",
@@ -343,7 +342,7 @@ const competitiveSites = {
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/shivendra_911",
+      profileLink: "https://www.codechef.com/users/sachinpandey27",
     },
     {
       siteName: "Codeforces",
@@ -351,7 +350,7 @@ const competitiveSites = {
       style: {
         color: "#1F8ACB",
       },
-      profileLink: "https://codeforces.com/profile/shivendrapratapsp3",
+      profileLink: "https://codeforces.com/profile/sachinpandey273",
     },
     {
       siteName: "Hackerearth",
@@ -359,7 +358,7 @@ const competitiveSites = {
       style: {
         color: "#323754",
       },
-      profileLink: "https://www.hackerearth.com/@shivendrapratapsp3",
+      profileLink: "https://www.hackerearth.com/@sachinpandey01/",
     },
     {
       siteName: "Kaggle",
@@ -367,7 +366,7 @@ const competitiveSites = {
       style: {
         color: "#20BEFF",
       },
-      profileLink: "https://www.kaggle.com/shivendrapratap0911",
+      profileLink: "https://www.kaggle.com/volupan",
     },
   ],
 };
@@ -395,97 +394,7 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Cloud Computing",
-      subtitle: "- NPTEL",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1aV2zTF23-dXBuUM78lIZsNAMgvH_JlJ2/view?usp=sharing",
-      alt_name: "NPTEL",
-      color_code: "#8C151599",
-    },
-    {
-      title: "Data Analytics with Python",
-      subtitle: "- NPTEL",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1gKgKhQB_HnwTwIcgNyBTiVXbFfdkaiJd/view?usp=sharing",
-      alt_name: "NPTEL",
-      color_code: "#8C151599",
-    },
-    {
-      title: "Computer Communications Specialization",
-      subtitle: "- University of Colorado System (Coursera)",
-      logo_path: "cu_logo.png",
-      certificate_link:
-        "https://coursera.org/share/569f8a8a8daabb365e8e949b0c610206",
-      alt_name: "University of Colorado",
-      color_code: "#CFB87C",
-    },
-
-    {
-      title: "Introduction to Hardware and Operating Systems",
-      subtitle: "- IBM (Coursera)",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://coursera.org/share/89b18a3b73f43d18df056bd4ec2f312f",
-      alt_name: "IBM",
-      color_code: "#9bd0f6ff",
-    },
-    {
-      title: "Packet Switching Networks and Algorithms",
-      subtitle: "- University of Colorado System (Coursera)",
-      logo_path: "cu_logo.png",
-      certificate_link:
-        "https://coursera.org/share/ff38bb039fc4cce2a891fc918f2d8bab",
-      alt_name: "University of Colorado",
-      color_code: "#CFB87C",
-    },
-    {
-      title: "TCP/IP and Advanced Topics",
-      subtitle: "- University of Colorado System (Coursera)",
-      logo_path: "cu_logo.png",
-      certificate_link:
-        "https://coursera.org/share/1ab2102eca969e4585e2a273b3603c6f",
-      alt_name: "University of Colorado",
-      color_code: "#CFB87C",
-    },
-    {
-      title: "The Bits and Bytes of Computer Networking",
-      subtitle: "- Google (Coursera)",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://coursera.org/share/9cdd42fae85c13a5c87b94871b4be9cc",
-      alt_name: "Google",
-      color_code: "#CFB87C",
-    },
-    {
-      title: "Peer-to-Peer Protocols and Local Area Networks",
-      subtitle: "- University of Colorado System (Coursera)",
-      logo_path: "cu_logo.png",
-      certificate_link:
-        "https://coursera.org/share/7de4e42b40d381b51bf93f08679124d8",
-      alt_name: "University of Colorado",
-      color_code: "#CFB87C",
-    },
-    {
-      title: "Fundamentals of Network Communication",
-      subtitle: "- University of Colorado System (Coursera)",
-      logo_path: "cu_logo.png",
-      certificate_link:
-        "https://coursera.org/share/5ea59915568e71268d411492e0e4988e",
-      alt_name: "University of Colorado",
-      color_code: "#CFB87C",
-    },
-    {
-      title: "Computer Architecture",
-      subtitle: "- University of Colorado System (Coursera)",
-      logo_path: "PU_logo.png",
-      certificate_link: "https://www.coursera.org/learn/comparch/home/module/1",
-      alt_name: "University of Colorado",
-      color_code: "#CFB87C",
-    },
-    {
-      title: "Computational Theory Language Principle & Finite Automata Theory",
+      title: "Computational Theory: Language Principle & Finite Automata Theory",
       subtitle: "- Infosys Springboard",
       logo_path: "infosys_logo.jpg",
       certificate_image: "Computational.pdf",
@@ -494,13 +403,13 @@ const certifications = {
       color_code: "#8abcee99",
     },
     {
-      title: "ChatGPT-4 Prompt Engineering ChatGPT, Generative AI & LLM",
+      title: "Master Generative AI & Generative AI Tools (ChatGPT & more)",
       subtitle: "- Infosys Springboard",
       logo_path: "infosys_logo.jpg",
-      certificate_image: "ChatGPT.pdf",
-      id: "chatgpt",
+      certificate_image: "MasterGenAI.pdf",
+      id: "master-genai",
       alt_name: "Infosys Springboard",
-      color_code: "#b8daf899",
+      color_code: "#a8d8ea99",
     },
     {
       title: "Build Generative AI Apps and Solutions with No-Code Tools",
@@ -510,6 +419,51 @@ const certifications = {
       id: "build",
       alt_name: "Infosys Springboard",
       color_code: "#94d0f899",
+    },
+    {
+      title: "ChatGPT-4 Prompt Engineering: ChatGPT, Generative AI & LLM",
+      subtitle: "- Infosys Springboard",
+      logo_path: "infosys_logo.jpg",
+      certificate_image: "ChatGPT.pdf",
+      id: "chatgpt",
+      alt_name: "Infosys Springboard",
+      color_code: "#b8daf899",
+    },
+    {
+      title: "The Bits and Bytes of Computer Networking",
+      subtitle: "- Google (Coursera)",
+      logo_path: "google_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/F393U0UP9P80",
+      alt_name: "Google",
+      color_code: "#CFB87C",
+    },
+    {
+      title: "Fundamentals of Network Communication",
+      subtitle: "- University of Colorado System (Coursera)",
+      logo_path: "cu_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/MY3RT34ZEZY7",
+      alt_name: "University of Colorado",
+      color_code: "#CFB87C",
+    },
+    {
+      title: "Introduction to Hardware and Operating Systems",
+      subtitle: "- IBM (Coursera)",
+      logo_path: "ibm_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/N4SX8HOX2ZT3",
+      alt_name: "IBM",
+      color_code: "#9bd0f6ff",
+    },
+    {
+      title: "Peer-to-Peer Protocols and Local Area Networks",
+      subtitle: "- University of Colorado System (Coursera)",
+      logo_path: "cu_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/VQ80602WE653",
+      alt_name: "University of Colorado",
+      color_code: "#CFB87C",
     },
   ],
 };
@@ -533,7 +487,7 @@ const experience = {
           duration: "2025 - Present",
           location: "Lovely Professional University",
           description:
-            "Research work on Language Identification in Low Resource Indian Languages using machine learning and natural language processing techniques. The paper has been accepted for publication.",
+            "Research work on Automated E-Gazette Summarization using Machine Learning and Natural Language Processing techniques. The study focuses on extracting and generating concise summaries from government gazette documents to improve information accessibility and readability. The paper has been applied for publication.",
           color: "#4285F4",
         },
       ],
@@ -542,36 +496,36 @@ const experience = {
       title: "Major Projects",
       experiences: [
         {
-          title: "Automated Road Extraction using Satellite Images",
-          company: "Computer Vision Project",
+          title: "Real-Time Heart Rate Estimation using Facial Video",
+          company: "deep learning model",
           company_url: "",
-          logo_path: "pytorch_logo.png",
+          logo_path: "DEEP-EPHYS.png",
           duration: "2025 - Present",
           location: "Academic Project",
           description:
-            "Developing a deep learning system using PyTorch to extract road networks from multitemporal satellite imagery using computer vision segmentation techniques.",
+            "A deep-learning–based system for real-time, non-contact heart rate estimation using remote photoplethysmography (rPPG). This project implements the DeepPhys model, leveraging convolutional neural networks to extract subtle color variations from facial video frames and convert them into accurate pulse signals..",
           color: "#f39c12",
         },
         {
-          title: "AI Powered Guest List Manager",
+          title: "Math Solver AI",
           company: "AI Application Project",
           company_url: "",
-          logo_path: "flask_logo.png",
+          logo_path: "math-solver.png",
           duration: "2025",
           location: "Personal Project",
           description:
-            "Built an AI powered event management system using Flask backend and NLP techniques to automate guest list handling and interaction.",
+            "An interactive web application that leverages the power of Google's Gemini Pro Vision model to solve complex mathematical problems from images. Users can upload an image containing a math problem, and the AI will analyze it to provide a detailed, step-by-step solution.",
           color: "#16a085",
         },
         {
-          title: "Parking Occupancy Pattern Analysis",
-          company: "Data Science Project",
+          title: "ParkFlow",
+          company: "Smart Parking Reservation System",
           company_url: "",
-          logo_path: "python_logo.png",
+          logo_path: "parkflow.png",
           duration: "2025",
           location: "Academic Project",
           description:
-            "Analyzed urban parking occupancy data to identify patterns and support intelligent transportation planning using data science techniques.",
+            "ParkFlow is a comprehensive smart parking reservation system designed to help users easily find and manage available parking spaces. By streamlining the search and booking process, it improves convenience for drivers and reduces the time and emissions wasted circling for a spot.",
           color: "#2980b9",
         },
       ],
@@ -627,100 +581,31 @@ const projectsHeader = {
 const projects = {
   data: [
     {
-      id: "road-extraction",
-      name: "Automated Road Extraction Using Multitemporal Satellite Images",
+      id: "real-time-heart-rate",
+      name: "Real-time heart rate estimation using facial video",
       description:
-        "Deep learning project using PyTorch for automated road extraction from multitemporal satellite imagery. The system focuses on computer vision segmentation techniques to detect road networks from remote sensing data.",
-      languages: ["Python", "PyTorch", "Computer Vision"],
-      image_path: "road-extraction.png",
-      githubUrl:
-        "https://github.com/shivendra911/Automated-Road-Extraction-Using-Multitemporal-Satellite-Images",
+        "A deep-learning–based system for real-time, non-contact heart rate estimation using remote photoplethysmography (rPPG). This project implements the DeepPhys model, leveraging convolutional neural networks to extract subtle color variations from facial video frames and convert them into accurate pulse signals.",
+      languages: ["Python", "Deep Learning", "Computer Vision"],
+      image_path: "heart-rate.png",
+      githubUrl: "https://github.com/sachinpandey273/Real-time-heart-rate-estimation-via-DeepPhys",
     },
     {
-      id: "flask-rag-llm",
-      name: "Flask CRUD RAG LLM Application",
+      id: "parkflow",
+      name: "ParkFlow",
       description:
-        "Backend application integrating Retrieval-Augmented Generation (RAG) with LLM workflows using Flask. Designed to experiment with AI-driven knowledge retrieval systems.",
-      languages: ["Python", "Flask", "LLM", "RAG"],
-      image_path: "flask-rag-llm.png",
-      githubUrl: "https://github.com/shivendra911/Flask-CRUD-RAG-LLM",
+        "ParkFlow is a comprehensive smart parking reservation system designed to help users easily find and manage available parking spaces. By streamlining the search and booking process, it improves convenience for drivers and reduces the time and emissions wasted circling for a spot.",
+      languages: ["Python", "Web Development"],
+      image_path: "parkflow.png",
+      githubUrl: "https://github.com/sachinpandey273/parkflow",
     },
     {
-      id: "parking-analysis",
-      name: "Parking Occupancy Pattern Analysis for Urban Transport Management",
+      id: "math-solver-ai",
+      name: "Math Solver AI",
       description:
-        "Data analysis project studying urban parking occupancy patterns to identify trends and optimize transportation planning using data science techniques.",
-      languages: ["Python", "Data Analysis", "Machine Learning"],
-      image_path: "parking-analysis.png",
-      githubUrl:
-        "https://github.com/shivendra911/Parking-Occupancy-Pattern-Analysis-for-Urban-Transport-Management",
-    },
-    {
-      id: "language-identification",
-      name: "Language Identification in Low Resource Indian Languages",
-      description:
-        "Machine learning project for identifying Indian languages from low-resource datasets using NLP techniques.",
-      languages: ["Python", "NLP", "Machine Learning"],
-      image_path: "language-identification.png",
-      githubUrl:
-        "https://github.com/shivendra911/Language-Identification-in-Low-Resource-Indian-Language",
-    },
-    {
-      id: "guest-list-manager",
-      name: "AI Powered Guest List Manager",
-      description:
-        "AI-powered event management system with chatbot integration built using Flask and NLP techniques to automate guest list organization.",
-      languages: ["Python", "Flask", "NLP"],
-      image_path: "guest-list-manager.png",
-      githubUrl:
-        "https://github.com/shivendra911/AI_Powered_guest-list-manager",
-    },
-    {
-      id: "linux-automation",
-      name: "Linux System Administration Automation (RHCSA)",
-      description:
-        "Collection of shell scripts designed for automating Linux administration tasks in Red Hat environments including system monitoring and configuration.",
-      languages: ["Bash", "Linux", "RHEL"],
-      image_path: "linux-automation.png",
-      githubUrl:
-        "https://github.com/shivendra911/RHCSA-Linux-System-Administration",
-    },
-    {
-      id: "page-replacement",
-      name: "Page Replacement Algorithm Simulator",
-      description:
-        "Interactive simulator demonstrating operating system page replacement algorithms such as FIFO, LRU and Optimal.",
-      languages: ["TypeScript", "Operating Systems"],
-      image_path: "page-replacement.png",
-      githubUrl:
-        "https://github.com/shivendra911/Page-Replacement-Algorithm-Simulator",
-    },
-    {
-      id: "ai-performance-analyzer",
-      name: "AI Performance Analyzer",
-      description:
-        "Tool for evaluating machine learning model performance using metrics such as accuracy, precision, recall and F1-score.",
-      languages: ["Python", "Machine Learning"],
-      image_path: "ai-performance-analyzer.png",
-      githubUrl: "https://github.com/shivendra911/AI-Performance-Analyzer",
-    },
-    {
-      id: "ascii-forge",
-      name: "ASCIIFORGE",
-      description:
-        "Python-based tool that converts images or text into ASCII art representations.",
-      languages: ["Python"],
-      image_path: "ascii-forge.png",
-      githubUrl: "https://github.com/shivendra911/ASCIIFORGE",
-    },
-    {
-      id: "portfolio",
-      name: "Personal Portfolio Website",
-      description:
-        "Personal portfolio website showcasing projects, skills and technical work.",
-      languages: ["React", "Next.js"],
-      image_path: "portfolio.png",
-      githubUrl: "https://github.com/shivendra911/portfolio-09",
+        "An interactive web application that leverages the power of Google's Gemini Pro Vision model to solve complex mathematical problems from images. Users can upload an image containing a math problem, and the AI will analyze it to provide a detailed, step-by-step solution.",
+      languages: ["React", "Gemini AI"],
+      image_path: "math-solver.png",
+      githubUrl: "https://github.com/sachinpandey273/math-solver-ai",
     },
   ],
 };
@@ -736,47 +621,25 @@ const publications = {
   data: [
     {
       id: "language-identification-research",
-      name: "Language Identification in Low Resource Indian Languages",
+      name: "Gazette Summarization via Multi-Objective Reinforcement Learning",
       createdAt: "2026-01-01T00:00:00Z",
       description:
-        "Research paper accepted for publication on machine learning approaches for identifying low-resource Indian languages using NLP.",
+        "Research paper accepted for publication on machine Research work on Automated E-Gazette Summarization using Machine Learning and Natural Language Processing techniques. The study focuses on extracting and generating concise summaries from government gazette documents to improve information accessibility and readability. The paper has been applied for publication. approaches for identifying low-resource Indian languages using NLP.",
       url: "#",
-      image_path: "publication-architecture.png",
+      image_path: "gazette.png",
     },
   ],
 };
 
 const opensourceContributions = {
-  experiences: [
-    {
-      title: "ASCII Forge",
-      company: "PyPI / Open Source",
-      company_url: "https://github.com/shivendra911/ASCIIFORGE",
-      duration: "2024",
-      location: "GitHub",
-      description:
-        "Professional ASCII Art Generation Toolkit published on PyPI. Converts images to ASCII art and generates animated text art with CLI support and customizable styles.",
-      logo_path: "ascii-forge.png",
-      color: "#24292e",
-    },
-    {
-      title: "Contextual Audio Editing Package",
-      company: "Open Source",
-      company_url: "https://github.com/shivendra911",
-      duration: "2024",
-      location: "GitHub",
-      description:
-        "Python package that adds contextual audio feedback based on editing content and situational themes to enhance user interaction.",
-      logo_path: "python_logo.png",
-      color: "#24292e",
-    },
-  ],
+  experiences: [],
 };
 
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
     profile_image_path: "shivendra_vector2.png",
+    profile_image_path_dark: "shivendra_vector52.png",
     description:
       "I am available on almost every social media platform. You can follow me, I will be happy to interact with you.",
   },
@@ -784,18 +647,18 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://medium.com/@shivendrapratapsp3",
+    link: "https://medium.com/@pthesachin",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Uttar Pradesh, India",
+    subtitle: "Bihar, India",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://maps.app.goo.gl/vS6LpU7y2E8xW7E8A",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 8887602163",
+    subtitle: "+91 8102954150",
   },
 };
 
