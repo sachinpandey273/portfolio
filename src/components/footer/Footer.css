@@ -31,7 +31,7 @@
   font-size: 0.95rem;
   margin: 0;
   line-height: 1.6;
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(255, 255, 255, 0.72);
 }
 
 /* Quick Links */
@@ -55,7 +55,7 @@
   font-family: "Google Sans Regular";
   font-size: 0.9rem;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.75);
   transition: all 0.25s ease;
   position: relative;
   width: fit-content;
@@ -121,14 +121,14 @@
   font-size: 0.9rem;
   margin: 0;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .footer-copyright {
   font-family: "Google Sans Regular";
   font-size: 0.82rem;
   margin: 0;
-  color: rgba(255, 255, 255, 0.35);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* Responsive */

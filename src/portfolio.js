@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Shivendra Pratap Portfolio",
     type: "website",
-    url: "https://myportfolio-lake-pi.vercel.app/",
+    url: "https://portfolio-09-beta.vercel.app/",
   },
 };
 
@@ -26,7 +26,7 @@ const greeting = {
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/file/d/1ZFAPv5P_IOnago_rmhpa1WZ5BjZ7EMBU/view?usp=sharing",
-  portfolio_repository: "https://github.com/shivendra911/myportfolio",
+  portfolio_repository: "https://github.com/shivendra911/portfolio-09",
   githubProfile: "https://github.com/shivendra911",
 };
 
@@ -127,7 +127,7 @@ const skills = {
     },
     {
       title: "Backend & Application Development",
-      fileName: "BackendImg",
+      fileName: "FullStackImg",
       skills: [
         "⚡ Developing backend applications using Python",
         "⚡ Building APIs and integrating machine learning models into applications",
@@ -195,7 +195,7 @@ const skills = {
     },
     {
       title: "Cloud & Systems",
-      fileName: "CloudSystemsImg",
+      fileName: "CloudInfraImg",
       skills: [
         "⚡ Studying Cloud Computing and distributed systems",
         "⚡ Experience working in Linux environments (Red Hat / RHEL)",
@@ -263,7 +263,7 @@ const skills = {
     },
     {
       title: "Programming & Tools",
-      fileName: "ProgrammingToolsImg",
+      fileName: "DesignImg",
       skills: [
         "⚡ Languages: Python, C++, Java",
         "⚡ ML Libraries: NumPy, Pandas, Scikit-Learn, PyTorch",
@@ -720,7 +720,7 @@ const projects = {
         "Personal portfolio website showcasing projects, skills and technical work.",
       languages: ["React", "Next.js"],
       image_path: "portfolio.png",
-      githubUrl: "https://github.com/shivendra911/myportfolio",
+      githubUrl: "https://github.com/shivendra911/portfolio-09",
     },
   ],
 };

@@ -17,6 +17,8 @@
 .skills-text-div {
   margin-left: 50px;
   font-family: "Google Sans Regular";
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .skills-main-div > * {
@@ -81,5 +83,13 @@
   }
   .skills-image-div > * {
     margin-top: 0px;
+  }
+  .skills-text-div {
+    margin-left: 0;
+    padding: 0 10px;
+  }
+  .skills-text {
+    font-size: 14px;
+    line-height: 1.6;
   }
 }

@@ -1,16 +1,16 @@
 // theme.js
 export const blueTheme = {
-  body: "#E8F6F3",
-  text: "#0D3B3E",
+  body: "#EAF2FB",        // soft light blue background
+  text: "#0A1F44",        // deep navy text
   expTxtColor: "#000a12",
-  highlight: "#A8E6CF",
-  dark: "#051F20",
-  secondaryText: "#5A8F85",
-  imageHighlight: "#0FA68A",
-  compImgHighlight: "#E6E6E6",
-  jacketColor: "#0B6E5F",
-  headerColor: "#0FA68A77",
-  splashBg: "#0D3B3E",
+  highlight: "#A8D4F5",   // light blue highlight
+  dark: "#0A1F44",        // navy dark
+  secondaryText: "#3D6B99", // muted blue
+  imageHighlight: "#1E6FD9", // vivid blue accent
+  compImgHighlight: "#D6E6F5", // pale blue
+  jacketColor: "#14447A",  // rich navy
+  headerColor: "#1E6FD977", // blue with opacity
+  splashBg: "#0A1F44",    // navy splash
 };
 
 export const brownTheme = {
@@ -196,17 +196,17 @@ export const materialTealTheme = {
 };
 
 export const zincTheme = {
-  body: "#09090b", // zinc-950
-  text: "#fafafa", // zinc-50
-  expTxtColor: "#000a12",
-  highlight: "#27272a", // zinc-800
-  dark: "#000000",
-  secondaryText: "#a1a1aa", // zinc-400
-  imageHighlight: "#3f3f46", // zinc-700
-  compImgHighlight: "#18181b", // zinc-900
-  jacketColor: "#d4d4d8", // zinc-300
-  headerColor: "#27272a77", // zinc-800 with opacity
-  splashBg: "#09090b", // zinc-950
+  body: "#0B1224",        // deep navy background
+  text: "#F0F6FF",        // bright white-blue text (high contrast)
+  expTxtColor: "#C8D9F0", // light blue for experience text
+  highlight: "#1A2B4A",   // noticeably lighter navy for cards/surfaces
+  dark: "#060C1A",        // deepest navy for accents
+  secondaryText: "#9DC4E8", // bright muted blue (much more readable)
+  imageHighlight: "#2A4D7A", // visible blue for image areas
+  compImgHighlight: "#142237", // dark navy with slight lift
+  jacketColor: "#7AB8F5",   // bright light blue accent
+  headerColor: "#1E3A6677", // navy border with good visibility
+  splashBg: "#0B1224",    // match body
 };
 
 export const lightTheme = blueTheme;

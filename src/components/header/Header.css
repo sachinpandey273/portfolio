@@ -15,6 +15,7 @@
   list-style: none;
   overflow: visible;
 }
+
 .grey-color {
   color: #868e96;
 }
@@ -41,6 +42,7 @@
   margin-top: 10px;
   line-height: normal;
 }
+
 .header .logo-name {
   font-family: "Agustina Regular";
   font-weight: bold;
@@ -58,13 +60,14 @@
   clear: both;
   max-height: 0;
   transition: max-height 0.2s ease-out;
+  overflow: hidden;
 }
 
 /* menu icon */
 
 .header .menu-icon {
   cursor: pointer;
-  display: inline-block;
+  display: block;
   float: right;
   padding: 28px 20px;
   position: relative;
@@ -105,24 +108,25 @@
   display: none;
 }
 
-.header .menu-btn:checked ~ .menu {
+.header .menu-btn:checked~.menu {
   max-height: 370px;
+  overflow: visible;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon {
+.header .menu-btn:checked~.menu-icon .navicon {
   background: transparent;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:before {
+.header .menu-btn:checked~.menu-icon .navicon:before {
   transform: rotate(-45deg);
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon:after {
+.header .menu-btn:checked~.menu-icon .navicon:after {
   transform: rotate(45deg);
 }
 
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
 
@@ -132,18 +136,21 @@
   .header li {
     float: left;
   }
+
   .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
   }
+
   .header .menu {
     max-height: none;
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
   }
+
   .header .menu-icon {
     display: none;
   }

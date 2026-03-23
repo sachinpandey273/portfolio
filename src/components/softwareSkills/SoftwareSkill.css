@@ -5,6 +5,10 @@
   margin-bottom: 0px;
   margin-top: 0px;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
 
 .software-skill-inline {
@@ -24,4 +28,18 @@
 
 .skill-image {
   height: 48px;
+}
+
+@media (max-width: 768px) {
+  .dev-icons {
+    font-size: 2rem;
+    gap: 8px;
+  }
+  .software-skill-inline {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .skill-image {
+    height: 36px;
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "myportfolio",
+  "name": "portfolio-09",
   "background_color": "#ffffff",
   "display": "standalone",
   "icons": [
@@ -40,7 +40,7 @@
       "density": "4.0"
     }
   ],
-  "short_name": "myportfolio",
+  "short_name": "portfolio-09",
   "start_url": ".",
   "theme_color": "#000000"
 }
